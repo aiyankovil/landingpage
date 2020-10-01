@@ -29,7 +29,7 @@ const Layout = ({ children }) => {
       {/* <Header siteTitle={data.site.siteMetadata.title} /> */}
         <main style={{ backgroundImage: `url('/home.bnad.png')`, backgroundSize:'100% auto', backgroundPosition:'50% 0', backgroundRepeat:'repeat-y' }}>{children}</main>
     <CookieConsent location="bottom" cookieName="gatsby-gdpr-google-analytics" buttonStyle={{ color: "#4e503b", fontSize: "13px" }}  overlay>
-        <span style={{ fontSize: "10px" }}>We use cookies to improve user experience, and analyze website traffic. For these reasons, we may share your site usage data with our analytics partners. By clicking “Accept Cookies,” you consent to store on your device all the technologies described in our Cookie Policy. You can change your cookie settings at any time by clicking “Cookie Preferences.”</span>
+        <span style={{ fontSize: "10px" }}>We use cookies to improve user experience, and analyze website traffic. For these reasons, we may share your site usage data with our analytics partners. By clicking “I unerstand,” you consent to store on your device all the technologies described in our Cookie Policy. ”</span>
     </CookieConsent>
         <footer>
         <div className="py-12 mt-12 md:mt-32 bg-black">
