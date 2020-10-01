@@ -9,6 +9,20 @@ module.exports = {
     siteUrl:'https://leapcode.io'
   },
   plugins: [
+      resolve: `gatsby-plugin-gdpr-cookies`,
+      options: {
+        googleAnalytics: {
+          trackingId: 'UA-149692233-2',
+          // Setting this parameter is optional
+          anonymize: true
+        },
+        // facebookPixel: {
+        //   pixelId: 'YOUR_FACEBOOK_PIXEL_ID'
+        // },
+        // Defines the environments where the tracking should be available  - default is ["production"]
+        environments: ['production', 'development']
+      },
+    },
     `gatsby-plugin-react-helmet`,
     {
       resolve: `gatsby-source-filesystem`,
